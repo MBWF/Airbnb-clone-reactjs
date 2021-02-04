@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 
-render(
-    <App />, document.getElementById('app')
+import Routes from './routes'
+
+ReactDOM.render(
+    <Routes />, document.getElementById('app')
 );

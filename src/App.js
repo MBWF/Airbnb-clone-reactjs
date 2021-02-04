@@ -1,9 +1,11 @@
 import React from 'react'
 
-import Router from './routes'
+import Routes from './routes'
+
+import './Global.css'
 
 function App() {
-    return <Router />
+    return <Routes />
 }
 
 export default App

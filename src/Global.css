@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-red: #FF5A5F;
+    --primary-purple: #914669;
+    --primary-green: #008489;
+    --secundary-dark-grey: #484848;
+    --secundary-grey : #767676;
+    --secundary-white: #fff;
+}

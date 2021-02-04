@@ -1,0 +1,23 @@
+.explorer-body {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    width: 391px;
+    border: 1px solid var(--secundary-dark-grey);
+    box-shadow: 1px 1px 4px 1px  var(--secundary-dark-grey);
+    border-radius: 10px;
+}
+
+.explorer-img {
+    width: 121px;
+    height: 85px;
+    background-color: var(--primary-green);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.explorer-description {
+    font-size: 10pt;
+    color: var(--secundary-dark-grey);
+    margin: 0px 20px;
+    
+}

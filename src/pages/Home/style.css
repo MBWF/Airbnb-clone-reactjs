@@ -1,13 +1,20 @@
+h1, button {
+    font-family: 'Roboto', sans-serif;;
+}
+
 header {
     background-color: blueviolet;
     height: 100vh;
-    width: 100vw;
+    background-image: url("/src/assets/HERO-BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     padding: 25px 40px 0px 40px;
+    color: var(--secundary-white);
 }
 
 .logo-image {
@@ -22,6 +29,7 @@ nav ul {
 
 nav ul li {
     display: inline;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav ul li:not(:last-child) {
@@ -33,7 +41,7 @@ nav ul li:not(:last-child) {
     width: 351px;
     height: 444px;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 80px;
     border-radius: 5px;
     padding: 32px 24px;
 }
@@ -41,17 +49,43 @@ nav ul li:not(:last-child) {
 .search-form h1 {
     text-align: left;
     margin-bottom: 20px;
+    color: var(--secundary-dark-grey);
+
 }
 
 .search-form label {
-    font-size: 16pt;
+    font-size: 12pt;
+    color: var(--secundary-dark-grey);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .search-form input {
     height: 48px;
-    width: 343px;
+    width: 333px;
     margin-bottom: 20px;
+    padding-left: 10px;
     font-size: 12pt;
+}
+
+.search-form button {
+    float: right;
+    background-color: var(--primary-red);
+    padding: 10px;
+    width: 146px;
+    height: 48px;
+    border: 1px solid var(--primary-red);
+    color: var(--secundary-white);
+    border-radius: 2px;
+    font-size: 14pt;
+    transition: 1s;
+}
+
+.search-form button:hover {
+    background-color: transparent;
+    color: var(--primary-red);
+    border: 1px solid var(--primary-red);
+    transition: 0.6s;
 }
 
 .check-in-out {
@@ -59,5 +93,82 @@ nav ul li:not(:last-child) {
 }
 
 .check-in-out input {
-    width: 172px;
+    width: 160px;
+}
+
+section {
+    margin: 80px 12em;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+}
+
+.explore h1 {
+    color: var(--secundary-dark-grey);
+    text-align: left;
+}
+
+.explore-org {
+    display: flex;
+    justify-content: space-around;
+}
+
+.discovery h1 {
+    color: var(--secundary-dark-grey);
+    margin: 80px 0px 20px 0px;
+}
+
+.discovery h3 {
+    color: var(--secundary-dark-grey);
+    font-weight: 300;
+}
+
+
+.discovery-centralize {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discovery-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1206px;
+    height: 310px;
+    background-image: url('../../assets//retangulo07.png');
+    border-radius: 10px;
+
+}
+
+.discovery-img-centralize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discovery-img-centralize button {
+    transition: 1s;
+    width: 200px;
+    height: 44px;
+    background-color: var(--secundary-white);
+    border: 1px solid var(--secundary-white);
+    border-radius: 5px;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 12pt;
+    color: var(--secundary-dark-grey);
+}
+
+.discovery-img-centralize button:hover {
+    background-color: transparent;
+    border: 1px solid var(--secundary-white);
+    color: var(--secundary-white);
+    transition: 1s;
+    font-weight: 700;
+    
 }

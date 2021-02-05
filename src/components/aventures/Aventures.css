@@ -1,0 +1,43 @@
+.card-box {
+    margin-top: 40px;
+    width: 200px;
+    height: 385px;
+    font-family: roboto, 'sans-serif';
+}
+
+.card-box .box-img img {
+    width: 200px;
+    height: 240px;
+}
+
+.box-description {
+    margin-right: 5px;
+}
+
+.box-description h2 {
+    margin: 0;
+    font-size: 10pt;
+    font-weight: 300;
+}
+
+.box-description h1 {
+    margin: 10px 0px;
+    font-size: 14pt;
+}
+
+.box-description .rate {
+    display: flex;
+    color: green;
+    margin-top: 10px;
+}
+
+.box-description .rate h2 {
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+.star-rate {
+    width: 15px;
+    height: 15px;
+    margin-top: 1px;
+}

@@ -3,6 +3,7 @@ import React from 'react'
 import './style.css'
 
 import Explorer from '../../components/explorer/Explorer'
+import Aventures from '../../components/aventures/Aventures'
 
 import imagem from '../../assets/HERO-BG.png'
 import logo from '../../assets/logo-airbnb.png'
@@ -10,6 +11,12 @@ import retangulo01 from '../../assets/Rectangle4.png'
 import retangulo02 from '../../assets/Rectangle5.png'
 import retangulo03 from '../../assets/Rectangle6.png'
 import logoMaior from '../../assets/Logo_Airbnb.png'
+import imageBox from '../../assets/imageBox.png'
+import imageBox02 from '../../assets/imageBox02.png'
+import imageBox03 from '../../assets/imageBox03.png'
+import imageBox04 from '../../assets/imageBox04.png'
+import imageBox05 from '../../assets/imageBox05.png'
+
 
 function Home() {
     return (
@@ -70,6 +77,17 @@ function Home() {
                                 <button>Descubra Acomodações</button>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className='aventures'>
+                    <h1>Descubra as aventuras do Airbnb</h1>
+                    <h3>Viagens de vários dias organizadas por especialistas locais com atividades, refeições e alojamento incluídos</h3>
+                    <div className='aventures-card-box' >
+                        <Aventures imageBox={imageBox} pais='Brasil' pacote='2 Nights PACKAGE All Inclusive' preco='A partir de 577 € / pessoa - 3 dias' rate='5.0' />
+                        <Aventures imageBox={imageBox02} pais='Uruguai' pacote='9 Nights PACKAGE Exclusive' preco='A partir de 300 € / pessoa - 9 dias' rate='4.8' />
+                        <Aventures imageBox={imageBox03} pais='Peru' pacote='5 Nights PACKAGE All Inclusive' preco='A partir de 700 € / pessoa - 5 dias' rate='3.7' />
+                        <Aventures imageBox={imageBox04} pais='Suiça' pacote='3 Days PACKAGE Inclusive' preco='A partir de 900 € / pessoa - 3 dias' rate='5.0' />
+                        <Aventures imageBox={imageBox05} pais='Noruega' pacote='2 Nights PACKAGE All Inclusive' preco='A partir de 550 € / pessoa - 2 dias' rate='4.5' />
                     </div>
                 </div>
             </section>

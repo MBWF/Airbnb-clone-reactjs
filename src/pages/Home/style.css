@@ -170,5 +170,19 @@ section {
     color: var(--secundary-white);
     transition: 1s;
     font-weight: 700;
-    
+}
+
+.aventures-card-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aventures h1 {
+    color: var(--secundary-dark-grey);
+    margin: 80px 0px 20px 0px; 
+}
+
+.aventures h3 {
+    color: var(--secundary-dark-grey);
+    font-weight: 300;
 }

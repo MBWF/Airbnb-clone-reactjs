@@ -186,3 +186,13 @@ section {
     color: var(--secundary-dark-grey);
     font-weight: 300;
 }
+
+.logements-card-box {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    overflow-wrap: break-word;    
+}
+
+.logements h1 {
+    margin: 80px 0px 0px 0px}

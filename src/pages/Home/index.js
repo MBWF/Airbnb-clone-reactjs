@@ -4,6 +4,7 @@ import './style.css'
 
 import Explorer from '../../components/explorer/Explorer'
 import Aventures from '../../components/aventures/Aventures'
+import Logements from '../../components/logements/Logements'
 
 import imagem from '../../assets/HERO-BG.png'
 import logo from '../../assets/logo-airbnb.png'
@@ -16,6 +17,11 @@ import imageBox02 from '../../assets/imageBox02.png'
 import imageBox03 from '../../assets/imageBox03.png'
 import imageBox04 from '../../assets/imageBox04.png'
 import imageBox05 from '../../assets/imageBox05.png'
+import logImageBox01 from '../../assets/logImageBox.png'
+import logImageBox02 from '../../assets/logImageBox02.png'
+import logImageBox03 from '../../assets/logImageBox03.png'
+import logImageBox04 from '../../assets/logImageBox04.png'
+
 
 
 function Home() {
@@ -88,6 +94,15 @@ function Home() {
                         <Aventures imageBox={imageBox03} pais='Peru' pacote='5 Nights PACKAGE All Inclusive' preco='A partir de 700 € / pessoa - 5 dias' rate='3.7' />
                         <Aventures imageBox={imageBox04} pais='Suiça' pacote='3 Days PACKAGE Inclusive' preco='A partir de 900 € / pessoa - 3 dias' rate='5.0' />
                         <Aventures imageBox={imageBox05} pais='Noruega' pacote='2 Nights PACKAGE All Inclusive' preco='A partir de 550 € / pessoa - 2 dias' rate='4.5' />
+                    </div>
+                </div>
+                <div className='logements' >
+                    <h1>Alojamentos em todo o mundo</h1>
+                    <div className='logements-card-box' >
+                        <Logements logImageBox={logImageBox01} place='Toledo' rate='4.98' price='A partir de 123,123/persoa - 3 jour' />
+                        <Logements logImageBox={logImageBox02} place='Toledo' rate='4.98' price='A partir de 123,123/persoa - 3 jour' />
+                        <Logements logImageBox={logImageBox03} place='Toledo' rate='4.98' price='A partir de 123,123/persoa - 3 jour' />
+                        <Logements logImageBox={logImageBox04} place='Toledo' rate='4.98' price='A partir de 123,123/persoa - 3 jour' />                        
                     </div>
                 </div>
             </section>

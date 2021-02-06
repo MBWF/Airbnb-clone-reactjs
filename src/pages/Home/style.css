@@ -1,5 +1,9 @@
 h1, button {
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: var(--secundary-dark-grey);
 }
 
 header {
@@ -46,6 +50,10 @@ nav ul li:not(:last-child) {
     padding: 32px 24px;
 }
 
+.search-form input:focus {
+    outline: none; 
+}
+
 .search-form h1 {
     text-align: left;
     margin-bottom: 20px;
@@ -79,6 +87,11 @@ nav ul li:not(:last-child) {
     border-radius: 2px;
     font-size: 14pt;
     transition: 1s;
+    cursor: pointer;
+}
+
+.search-form button:focus {
+    outline: none;
 }
 
 .search-form button:hover {
@@ -162,6 +175,11 @@ section {
     font-weight: 700;
     font-size: 12pt;
     color: var(--secundary-dark-grey);
+    cursor: pointer;
+}
+
+.discovery-img-centralize button:focus {
+    outline: none;
 }
 
 .discovery-img-centralize button:hover {
@@ -195,4 +213,24 @@ section {
 }
 
 .logements h1 {
-    margin: 80px 0px 0px 0px}
+    margin: 80px 0px 40px 0px;
+}
+
+.plus-box {
+    margin: 80px 0px;
+}
+
+.plus-box h1 {
+    margin-bottom: 20px;
+}
+
+.plus-box h3 {
+    font-weight: 300;
+}
+
+.plus-organizer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
